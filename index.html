@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO تحسين -->
+    <title>Dima Salha | Front-End Developer Portfolio</title>
+    <meta name="description" content="Dima Salha - Front-End Developer and Data Science Enthusiast. Specialized in building modern, responsive websites using HTML, CSS, JavaScript, and React.">
+    <meta name="keywords" content="Front End Developer, Web Developer, Dima Salha, HTML CSS JavaScript, React Developer, Portfolio">
+    <meta name="author" content="Dima Salha">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">    
+</head>
+    <body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-en="DS" data-ar="DS">DS</div>
+            <div class="nav-controls">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about" data-en="About" data-ar="عني">About</a></li>
+                    <li><a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+                    <li><a href="#experience" data-en="Experience" data-ar="الخبرة">Experience</a></li>
+                    <li><a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                    <li><a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a></li>
+                </ul>
+                <div class="controls">
+                    <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+                    <button class="lang-toggle" id="langToggle" title="تبديل اللغة">EN</button>
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1 data-en="Dima Salha" data-ar="ديما صالحه">Dima Salha</h1>
+
+    <p 
+    data-en="I build modern, responsive web experiences that solve real-world problems."
+    data-ar="أقوم ببناء مواقع وتطبيقات ويب حديثة وسريعة الاستجابة لحل مشاكل واقعية بطريقة احترافية.">
+    I build modern, responsive web experiences that solve real-world problems.
+    </p>
+
+    <div class="cta-buttons">
+        <a href="#projects" class="btn btn-primary" data-en="View My Work" data-ar="شاهد أعمالي">View My Work</a>
+        <a href="#contact" class="btn btn-secondary" data-en="Hire Me" data-ar="وظفني">Hire Me</a>
+        <a href="DIMA Hani.pdf" download class="btn btn-primary" data-en="Download CV" data-ar="تحميل السيرة الذاتية">Download CV</a>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+         <h2 class="section-title" data-en="About Me" data-ar="نبذة عني">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3 data-en="Who I Am" data-ar="من أنا">Who I Am</h3>
+                <p 
+    data-en="I'm a Computer Systems Engineering graduate with a passion for building user-friendly digital solutions. I specialize in front-end development and enjoy working with data to create meaningful insights."
+    data-ar="أنا خريجة هندسة أنظمة الحاسوب ولدي شغف بتطوير حلول رقمية سهلة الاستخدام. أختص في تطوير الواجهات الأمامية وأستمتع بتحليل البيانات واستخراج رؤى مفيدة.">
+    I'm a Computer Systems Engineering graduate...
+    </p>
+                <p data-en="My goal is to leverage technology to solve real-world problems and continuously learn new technologies to stay ahead in the rapidly evolving tech industry." 
+                   data-ar="هدفي هو الاستفادة من التكنولوجيا لحل المشاكل الحقيقية والتعلم المستمر للبقاء في الصدارة في صناعة التكنولوجيا سريعة التطور.">
+                    My goal is to leverage technology to solve real-world problems and continuously learn new technologies to stay ahead in the rapidly evolving tech industry.
+                </p>
+                <div class="specializations">
+                    <span class="tag">Front-End Development</span>
+                    <span class="tag">Data Science</span>
+                    <span class="tag">Python Programming</span>
+                    <span class="tag">UI/UX Design</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3 data-en="Why Work With Me" data-ar="لماذا تعمل معي">Why Work With Me</h3>
+                <p data-en="✓ Responsive & modern web design" data-ar="✓ تصاميم ويب حديثة وسريعة الاستجابة">
+                    ✓ Responsive & modern web design
+                </p>
+                <p data-en="✓ Data-driven decision making" data-ar="✓ اتخاذ القرارات القائمة على البيانات">
+                    ✓ Data-driven decision making
+                </p>
+                <p data-en="✓ Clean, maintainable code" data-ar="✓ كود نظيف وقابل للصيانة">
+                    ✓ Clean, maintainable code
+                </p>
+                <p data-en="✓ Attention to detail & UX focus" data-ar="✓ الاهتمام بالتفاصيل والتركيز على تجربة المستخدم">
+                    ✓ Attention to detail & UX focus
+                </p>
+                <p data-en="✓ Problem-solving mindset" data-ar="✓ عقلية حل المشاكل">
+                    ✓ Problem-solving mindset
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title" data-en="Skills & Expertise" data-ar="المهارات والخبرات">Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3 data-en="Programming Languages" data-ar="لغات البرمجة">Programming Languages</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Python</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>SQL</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Java</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 data-en="Web Development" data-ar="تطوير الويب">Web Development</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML5 & CSS3</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>React.js</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Responsive Design</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Firebase</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 data-en="Tools & Platforms" data-ar="الأدوات والمنصات">Tools & Platforms</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Git & GitHub</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>VS Code</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Data Analysis</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>MySQL</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 82%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="section-title" data-en="Professional Experience" data-ar="الخبرة المهنية">Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 data-en="Data Structures & Algorithms Training" data-ar="تدريب هياكل البيانات والخوارزميات">
+                        Data Structures & Algorithms Training
+                    </h3>
+                    <div class="timeline-date" data-en="Gaza Sky Geeks | Jun 2025" data-ar="غزة سكاي جيكس | يونيو 2025">
+                        Gaza Sky Geeks | Jun 2025
+                    </div>
+                    <ul class="timeline-description">
+                        <li data-en="Solved 50+ algorithmic problems with Python" data-ar="حل أكثر من 50 مسألة خوارزمية مع Python">
+                            Solved 50+ algorithmic problems with Python
+                        </li>
+                        <li data-en="Improved problem-solving efficiency by 20%" data-ar="تحسين كفاءة حل المشاكل بنسبة 20٪">
+                            Improved problem-solving efficiency by 20%
+                        </li>
+                        <li data-en="Completed 60 hours of intensive training" data-ar="أكملت 60 ساعة من التدريب المكثف">
+                            Completed 60 hours of intensive training
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 data-en="Front-End Development Intern" data-ar="متدربة تطوير Front-End">
+                        Front-End Development Intern
+                    </h3>
+                    <div class="timeline-date" data-en="WebCome Company | Mar 2025 - Apr 2025" data-ar="شركة ويبكوم | مارس 2025 - أبريل 2025">
+                        WebCome Company | Mar 2025 - Apr 2025
+                    </div>
+                    <ul class="timeline-description">
+                        <li data-en="Developed responsive interfaces with HTML, CSS, JavaScript" data-ar="تطوير واجهات سريعة الاستجابة مع HTML و CSS و JavaScript">
+                            Developed responsive interfaces with HTML, CSS, JavaScript
+                        </li>
+                        <li data-en="Improved UI/UX and optimized page performance" data-ar="تحسين واجهة المستخدم وتحسين أداء الصفحة">
+                            Improved UI/UX and optimized page performance
+                        </li>
+                        <li data-en="Collaborated on team projects" data-ar="التعاون في مشاريع الفريق">
+                            Collaborated on team projects
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="section-title" data-en="Education" data-ar="التعليم">Education</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3 data-en="Bachelor of Engineering" data-ar="بكالوريوس هندسة">Bachelor of Engineering</h3>
+                <div class="education-meta" data-en="Computer Systems Engineering" data-ar="هندسة أنظمة الحاسوب">
+                    Computer Systems Engineering
+                </div>
+                <div class="education-meta" data-en="Al-Azhar University, Gaza" data-ar="جامعة الأزهر، غزة">
+                    Al-Azhar University, Gaza
+                </div>
+                <div class="education-gpa" data-en="GPA: 87.07% | Sep 2019 - Nov 2024" data-ar="المعدل: 87.07٪ | سبتمبر 2019 - نوفمبر 2024">
+                    GPA: 87.07% | Sep 2019 - Nov 2024
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title" data-en="Featured Projects" data-ar="المشاريع المميزة">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">📚</div>
+                <div class="project-content">
+                    <h3 data-en="Library Management System" data-ar="نظام إدارة المكتبة">Library Management System</h3>
+                    <p class="project-description" data-en="A comprehensive library management system built with Python using OOP principles. Features include book management, member tracking, and transaction history with JSON storage." 
+                       data-ar="نظام إدارة مكتبة شامل مبني باستخدام Python مع مبادئ OOP. تتضمن الميزات إدارة الكتب وتتبع الأعضاء وسجل المعاملات مع تخزين JSON.">
+                        A comprehensive library management system built with Python using OOP principles. Features include book management, member tracking, and transaction history with JSON storage.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OOP</span>
+                        <span class="tech-tag">JSON</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DimaSalha?tab=repositories" class="github" data-en="View Code" data-ar="عرض الكود">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">📖</div>
+                <div class="project-content">
+                    <h3 data-en="Study Room Web App" data-ar="تطبيق غرفة الدراسة">Study Room Web App</h3>
+                    <p class="project-description" data-en="A web application that helps students track their study hours across multiple subjects. Built with HTML, CSS, JavaScript and Firebase for real-time data synchronization." 
+                       data-ar="تطبيق ويب يساعد الطلاب على تتبع ساعات الدراسة في عدة مواضيع. مبني مع HTML و CSS و JavaScript و Firebase للمزامنة الفورية للبيانات.">
+                        A web application that helps students track their study hours across multiple subjects. Built with HTML, CSS, JavaScript and Firebase for real-time data synchronization.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DimaSalha/Study-Room-Application" class="github" data-en="View Code" data-ar="عرض الكود">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">💼</div>
+                <div class="project-content">
+                    <h3 data-en="More Projects Coming" data-ar="مزيد من المشاريع قريباً">More Projects Coming</h3>
+                    <p class="project-description" data-en="I'm constantly working on new and exciting projects. Stay tuned for more updates including React applications, data science projects, and innovative web solutions." 
+                       data-ar="أعمل باستمرار على مشاريع جديدة ومثيرة. تابع للمزيد من التحديثات بما في ذلك تطبيقات React ومشاريع علم البيانات والحلول الويب المبتكرة.">
+                        I'm constantly working on new and exciting projects. Stay tuned for more updates including React applications, data science projects, and innovative web solutions.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Data Science</span>
+                        <span class="tech-tag">Innovation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DimaSalha?tab=repositories" class="github" data-en="View GitHub" data-ar="عرض جيت هاب">View GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="section-title" data-en="Contact" data-ar="تواصل">Contact</h2>
+         <p 
+    data-en="I'm available for freelance work and open to new opportunities."
+    data-ar="أنا متاحة للعمل الحر ومهتمة بالفرص الجديدة.">
+    I'm available for freelance work.
+    </p>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                <p><a href="mailto:dima2862001@gmail.com">dima2862001@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <h3 data-en="Phone" data-ar="الهاتف">Phone</h3>
+                <p><a href="tel:+970567137207">+970-567-137-207</a></p>
+            </div>
+            <div class="contact-item">
+                <h3 data-en="Location" data-ar="الموقع">Location</h3>
+                <p data-en="Gaza Strip, Palestine" data-ar="قطاع غزة، فلسطين">Gaza Strip, Palestine</p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/dima-salha-97530a278/" target="_blank" title="LinkedIn">💼</a>
+            <a href="https://github.com/DimaSalha" target="_blank" title="GitHub">💻</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p data-en="© 2025 Dima Salha. All rights reserved." data-ar="© 2025 ديما صالحه. جميع الحقوق محفوظة.">
+            © 2025 Dima Salha. All rights reserved.
+        </p>
+        <p data-en="Designed & Built with ❤️ - Pure HTML, CSS & JavaScript" 
+           data-ar="صُمِّم و بُنِي بـ ❤️ - Pure HTML و CSS و JavaScript">
+            Designed & Built with ❤️ - Pure HTML, CSS & JavaScript
+        </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
